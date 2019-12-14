@@ -1,0 +1,27 @@
+/* 清楚默认样式 start */
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+html{
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-size: 1.6rem;
+    height: 100%;
+    width: 100%;
+}
+li{
+    list-style:none
+}
+img{
+    vertical-align:top;
+    border:none
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 清楚默认样式 end */

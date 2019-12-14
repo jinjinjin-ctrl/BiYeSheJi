@@ -1,0 +1,317 @@
+body{
+	font-size: 0.875rem;
+	font-family: '微软雅黑';
+	width: 100%;
+	height: 900X;
+} 
+/* 头部 */
+.head{
+	min-width: 100%;
+	max-width: 100%;
+	height: 10rem;
+	position: relative;
+}
+.head .head_button{
+	width: 100%;
+	height: 8rem;
+	margin: auto;
+	background-image:-webkit-linear-gradient(top,rgb(0, 0, 0),#F2F2F2);
+}
+/* LOL图标 */
+.head .head_left{
+	width: 5rem;
+	height: 5rem;
+	background: url(../image/leagueoflegends.png) no-repeat;
+	background-size: 5rem 5rem;
+	position: absolute;
+	left: 45%;
+	top: 1.5rem;
+}
+/*LOL资料库*/
+.head span{
+	width: 20rem;
+	margin-top: 0.9375rem;
+	height: 2.1875rem;
+	display: table-cell;
+	vertical-align: middle;
+	color: blanchedalmond;
+	font-family: "微软雅黑";
+	font-size: 3.5rem;
+	font-display: center;
+	position: absolute;
+	left: 49%;
+	top: 1rem;
+}
+.room{
+	height: 1.6rem;
+	width: 100%;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+	/* 视频 */
+.class_one{
+	width: 80%;
+	height: 500px;
+	background: #c4b9b9;
+	border:2px solid #F00;
+}
+	/* 视频 */
+/* 头部 */
+/* 上一步 */
+form .icon {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+form .icon span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	position: absolute;
+	left: 240px;
+}
+form .icon a{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #615959;
+}
+form .icon a:hover{
+	text-decoration: underline;
+}
+form .icon .icon-1{
+	position: absolute;
+	left: 40px;
+}
+form .icon .icon-2{
+	position: absolute;
+	left: 130px;
+}
+form .icon .icon-home{
+	width: 30px;
+	height: 30px;
+}
+form .icon .icon-arrow-1{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+}
+form .icon .icon-arrow-2{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 210px;
+}
+/* 上一步 */
+/* 英雄图片 */
+form .class_two{
+	width: 100%;
+	height: 62rem;
+	background:url(../image/3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+form .class_two .head_left{
+	width: 35%;
+	height: 100%;
+	background:rgba(0,0,0,0.7);;
+	/* opacity: 0.7; */
+	position: relative;
+	float: left;
+}
+/* 英雄称号 */
+form .class_two .head_left .one{
+	color: rgb(255, 255, 255);
+	font-size: 5rem;
+	opacity: 3.0;
+	font-weight: bolder;
+	position: absolute;
+	left: 3.5rem;
+	top: 10rem;
+}
+/* 英雄名字 */
+form .class_two .head_left .two{
+	color: rgb(255, 255, 255);
+	font-size: 6.5rem;
+	opacity: 3.0;
+	font-weight: bolder;
+	position: absolute;
+	left: 3rem;
+	top: 23rem;
+}
+/* 英雄属性 */
+form .class_two .head_left .three{
+	margin:0 auto;
+	width: 70px;
+	height: 35px;
+	background: darkcyan;
+	font-size: 2.5rem;
+	border-radius:15px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	opacity: 3.0;
+	position: absolute;
+	left: 4rem;
+	top: 33rem;
+}
+/* 英雄属性 */
+form .class_two .head_left .three2{
+	margin:0 auto;
+	width: 70px;
+	height: 35px;
+	background: darkcyan;
+	font-size: 2.5rem;
+	border-radius:15px;
+	text-align: center;
+	color: rgb(255, 255, 255); 
+	position: absolute;
+	left: 13rem;
+	top: 33rem;
+}
+/* 英雄图片 */
+
+/* 英雄背景 */
+form .class_tue span{
+	margin:47px 0 15px;
+	font-size:3rem;
+	color:#338c7a;
+}
+form .class_tue .bun{
+	display: block;
+	background: rgb(214, 214, 214);
+	/* color: rgb(0, 0, 0); */
+	width: 90%;
+	height: 100px;
+	padding: 30px 5%;
+	position: relative;
+}
+form .class_tue .bun .one{
+	font-size: 2rem;
+	color: rgb(0, 0, 0);
+}
+/* 英雄背景 */
+
+/* 技能介绍 */
+	/* 技能图标 */
+form .class_tre{
+	display: block;
+}
+form .class_tre span{
+	margin:47px 0 15px;
+	font-size:3rem;
+	color:#338c7a;
+}
+form .class_tre .btn{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 105px;
+}
+form .class_tre li{
+	display: block;
+	float: left;
+	width: 64px;
+	height: 64px;
+    padding: 10px 19px 13px;
+}
+form .class_tre .btn ul li{
+	display: block;
+	width: 80px;
+	height:80px;
+}
+form .class_tre .btn ul .current{
+    border-top: 3px solid #00a383;
+    padding: 10px 19px 13px;
+    background: rgb(214, 214, 214);
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+form .class_tre .btn ul li img{
+	display: block;
+	width: 80px;
+	height:80px;
+}
+	/* 技能图标 */
+form .class_tre .bun{
+	display: block;
+	border-left:  1px solid #e1e1e1;
+	border-right:  1px solid #e1e1e1;
+	border-bottom:  1px solid #e1e1e1;
+    background: rgb(214, 214, 214);
+	width: 90%;
+	height: 140px;
+	padding: 30px 5%;
+	position: relative;
+}
+	/* 技能名称 */
+form .class_tre .bun span.one{
+	font-size: 3rem;
+	font-weight: bolder;
+	color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 4rem;
+}
+	/* 技能位置 */
+form .class_tre .bun span.two{
+	font-size: 2.8rem;
+	color: rgba(83, 74, 74, 0.5);
+	margin: 0;
+	padding: 0;
+	position: absolute; 
+	top: 4rem;
+	left: 25rem;
+} 
+	/* 技能信息 */
+form .class_tre .bun span.three{
+	margin: 0;
+	padding-right: 10px;
+	font-size: 2rem;
+	color: rgb(0, 0, 0);
+	position: absolute; 
+	top: 10rem;
+}
+/* 技能介绍 */
+
+
+/* 评论区 */
+form .text-a{
+	width: 100%;
+	height: 400px;
+}
+form .text .input{
+	width: 80%;
+	height: 30px;
+}
+form .text .submit{
+	width: 10%;
+	height: 30px;
+	float: right;
+}
+/* 评论区 */
+
+
+/* 底部版权 */
+.button{
+	display: block;
+	height: 5rem;
+	width: 100%;
+	background:  linear-gradient(to right,rgba(255, 255, 255,1) ,rgba(0, 0, 0,1),70%,rgba(255, 255, 255,1));
+	position: relative;
+}
+.button p{
+	width:100%;
+	height: 50%;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 2rem;
+}
