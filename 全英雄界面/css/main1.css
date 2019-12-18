@@ -1,0 +1,205 @@
+body{
+	font-size: 0.875rem;
+	font-family: '微软雅黑';
+    max-width: 100%;
+    min-width: 1450px;
+	height: 900X;
+} 
+    /* 头部 */
+.head{
+	min-width: 1450px;
+	max-width: 100%;
+	height: 10rem;
+	position: relative;
+}
+.head .head_button{
+	width: 100%;
+	height: 8rem;
+	margin: auto;
+	background-image:-webkit-linear-gradient(top,rgb(0, 0, 0),#F2F2F2);
+}
+
+/* LOL图标 */
+.head .head_left{
+	width: 5rem;
+	height: 5rem;
+	background: url(/image/leagueoflegends.png) no-repeat;
+	background-size: 5rem 5rem;
+	position: absolute;
+	left: 45%;
+	top: 1.5rem;
+}
+/*LOL资料库*/
+.head span{
+	width: 20rem;
+	margin-top: 0.9375rem;
+	height: 2.1875rem;
+	display: table-cell;
+	vertical-align: middle;
+	color: blanchedalmond;
+	font-family: "微软雅黑";
+	font-size: 3.5rem;
+	font-display: center;
+	position: absolute;
+	left: 49%;
+	top: 1rem;
+}
+.room{
+	height: 1.6rem;
+	width: 100%;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+	/* 视频 */
+.class_one{
+	width: 80%;
+	height: 500px;
+	background: #c4b9b9;
+	border:2px solid #F00;
+}
+    /* 视频 */
+    /* 上一步 */
+form .icon {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+form .icon a{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #615959;
+}
+form .icon a:hover{
+	text-decoration: underline;
+}
+form .icon .icon-1{
+	position: absolute;
+	left: 40px;
+}
+form .icon .icon-home{
+	width: 30px;
+	height: 30px;
+}
+form .icon .icon-arrow-1{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+}
+form .icon span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	position: absolute;
+	left: 130px;
+}
+/* 上一步 */
+    /* 头部 */
+
+/* 职业选择 */
+form .tre{
+    position: relative;
+}
+form .tre .tre_btn{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 105px;
+}
+form .tre li{
+	display: block;
+	float: left;
+	width: 100px;
+    height: 80px;
+    line-height: 80px;
+}
+form .tre .tre_btn ul li span{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+form .tre .tre_btn ul .current{
+    border-top: 3px solid #00a383;
+    padding: 10px 19px 13px;
+    background: rgb(230, 230, 230);
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+/*  */
+
+form .tre .tre_bun{
+	width: 100%;
+	height: 1080px;
+    background: rgb(230, 230, 230);
+}
+form .tre .tre_bun .search{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+form .tre .tre_bun .search input{
+	width: 30%;
+	height: 30px;
+	position: absolute;
+	left: 35%;
+	top: 35px;
+}
+form .tre .tre_bun .imglist li{
+	float: left;
+    width: 140px;
+    height: 170px;
+    margin-bottom: 22px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+	overflow: hidden;
+	/* display: none; */
+}
+form .tre .tre_bun .imglist li a{
+	color: #666;
+}
+form .tre .tre_bun .imglist li a img{
+	width: 100px;
+	height: 100px;
+	display: block;
+    margin: 0 auto 10px;
+}
+form .tre .tre_bun .imglist li a p{
+	font-size: 20px;
+}
+/* form .tre .tre_bun .all{ */
+	/* display: ; */
+/* } */
+/* form .tre .tre_bun .vio{ */
+	/* display: none;  */
+/* } */
+/*  */
+/* 职业选择 */
+
+
+
+/* 底部版权 */
+.button{
+	display: block;
+	height: 5rem;
+	width: 100%;
+	background:  linear-gradient(to right,rgba(255, 255, 255,1) ,rgba(0, 0, 0,1),70%,rgba(255, 255, 255,1));
+	position: relative;
+}
+.button p{
+	width:100%;
+	height: 50%;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 2rem;
+}
